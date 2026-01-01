@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/43642738a4.js" crossorigin="anonymous"></script>
+
+    <style>
+        #R1head{
+            background:  url('rooms/1.jpg')no-repeat center center/cover;
+            height: 50vh;
+        }
+        .titler1,.parar1{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .parar1{
+            font-size: 25px;
+        }
+        .sec{
+            display: flex;
+            flex-direction: column;
+        }
+        .sec1{
+            display: flex;
+        }
+        .img1{
+            background:  url('rooms/1.1.jpg')no-repeat center center/cover;
+            height: 50vh;
+            width: 70%;
+            margin-right: 20px;
+        }
+        .det1{
+            justify-content: center;
+            margin-top: 100px;
+            font-size: 20px;
+        }
+        .img2{
+            background:  url('rooms/1.3.jpg')no-repeat center center/cover;
+            height: 70vh;
+            width: 70%;
+            margin-right: 20px;
+        }
+        .img3{
+            background:  url('rooms/1.2.jpg')no-repeat center center/cover;
+            height: 50vh;
+            width: 70%;
+            margin-right: 20px;
+        }
+        #footr1{
+            height: 400px;
+            background-image: linear-gradient(white, rgb(150, 124, 8));
+            display: flex;
+            flex-direction: column;
+        }
+        .cla{
+            margin-right: 300px;
+
+        }
+
+
+        @media (max-width: 800px) {
+            .sec1{
+                flex-direction: column;
+            }
+            .det1{
+                margin-top: 0;
+            }
+        }
+
+        
+        
+    </style>
+</head>
+
+<body>
+    <div id="R1head">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <a class="navbar-brand font1" href="#">Relex Resort</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-light"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto ">
+              <li class="nav-item active ">
+                <a class="nav-link font1" style="text-align: center;" href="home.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link font1" style="text-align: center;" href="#">Nature</a>
+              </li>
+              <li class="nav-item active" >
+                <a class="nav-link font1" style="text-align: center;" href="Room.html">Rooms</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link font1" style="text-align: center;" href="#">Foods</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link font1" style="text-align: center;" href="#">Location</a>
+              </li>
+            </ul>
+            
+          </div>
+        </nav>
+        
+      </div>
+
+
+
+
+      <!-- room link -->
+
+
+      <nav class="navbar navbar-expand-lg  ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse " id="navbarSupportedContent2">
+        <ul class="navbar-nav ml-auto  cla">
+          <li class="nav-item active ">
+            <a class="nav-link navbar-brand text-dark" style="text-align: center;" href="room1.html">Two Bedroom Kurumba Residence<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link navbar-brand text-dark" style="text-align: center;" href="#">Family Villa</a>
+          </li>
+          <li class="nav-item active" >
+            <a class="nav-link navbar-brand text-dark" style="text-align: center;" href=".html">Deluxe Pool Villa</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link navbar-brand text-dark" style="text-align: center;" href="#">Beach Villa</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link navbar-brand text-dark" style="text-align: center;" href="#">Garden Pool Villa</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link navbar-brand text-dark" style="text-align: center;" href="#">Beachfront Deluxe Bungalow</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link navbar-brand text-dark" style="text-align: center;" href="#">Deluxe Bungalow</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link navbar-brand text-dark" style="text-align: center;" href="#">Superior Room</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link navbar-brand text-dark" style="text-align: center;" href="#">Over Water Bungalow</a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+      <header >
+            <h1 class="titler1">Two Bedroom Kurumba Residence</h1>
+            <p class="parar1">Set on the beachfront. Two bedroom, two private pool luxury villa. Lush central dining and lounge with a large veranda that flows onto the beach</p>
+      </header>
+
+      <div class="container sec">
+        <h1  style="text-align: center;">Room Configuration</h1>
+        <div class=" container sec1 ">
+            <div class="img1"></div>
+            <div class="det1">
+                <li>Max. 6 adults or 4 adults + 2 children/teen + 2 infant</li>
+                <li>Extra beds provided: 2 rollaway beds + 2 baby cots</li>
+              </div>
+        </div>
+        <br>
+        <h1  style="text-align: center;">Essentials</h1>
+        <div class=" container sec1 ">
+          <div class="det1 ">
+              <li>Air conditioning and fans</li>
+              <li>Two large bedrooms and King-sized beds</li>
+              <li>Extra single bed or cot can be added</li>
+              <li>Safety deposit box</li>
+              <li>Three flat screen TVs</li>
+              <li>Satellite television stations</li>
+              <li>Outdoor standing shower</li>
+              <li>Indoor standing shower</li>
+              <li>Bathtub</li>
+              <li>Double vanity/li>
+  
+          </div>
+          <div class="img2"></div>
+          </div>
+          <br>
+          <h1 style="text-align: center;">Thoughtful Touches</h1>
+          <div class=" container sec1">
+              <div class="img3"></div>
+              <div class="det1">
+
+                  <li>Complimentary WiFi connection</li>
+                  <li>Bose Mini Bluetooth speaker</li>
+                  <li>Electrical adaptors</li>
+                  <li>Beach towels</li>
+                  <li>Premium amenities</li>
+                  <li>Iron & Ironing Board</li>
+              </div>
+          </div>
+  
+      </div>
+      
+
+    <footer id="footr1">
+        <div class="footf">
+            <div class="foot1">
+                <br>
+                <h2><a href="home.html" class="fontf" >Relex Resort</a></h2>
+                <p>Stay Safe Stay Connected</p>
+                    <span >
+                        <i class="fab fa-facebook"></i>
+                    </span>
+                    <span >
+                        <i class="fab fa-twitter"></i>
+                    </span>
+                    <span >
+                        <i class="fab fa-instagram"></i>
+                    </span>
+                
+            </div>
+            <div class="foot2">
+                <h2>Navigation</h2>
+                <ul class="foot2">
+                    <li ><a href="#" class="foot2" >Home</a></li>
+                    <li><a href="#" class="foot2" >Nature</a></li>
+                    <li><a href="#" class="foot2">Rooms</a></li>
+                    <li><a href="#" class="foot2">Foods</a></li>
+                    <li><a href="#" class="foot2" >Location</a></li>
+                   
+                </ul>
+                
+            </div>
+        </div>
+        <div class="foots">
+            <div class="foot3">
+                <h2>Contact</h2>
+                <address>
+                    Paradise Island Resort & Spa Lankanfinolhu North, Maldives
+                    10(87)738-3940
+                    <br>
+                    relex@resort.com
+                </address> 
+            </div>
+            <div class="foot4">
+                <p>Hotel BT &copy; 2024,All Rights To TUHIN ..SP6</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
